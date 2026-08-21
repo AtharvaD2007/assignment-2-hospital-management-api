@@ -5,6 +5,8 @@ const Hospital=require('../models/hospitals');
 const bcrypt = require('bcryptjs');   
 const { hash } = require('bcryptjs');
 
+
+
 router.get('/',(req,res)=>{
     try {
         return res.status(201).json({message:" Welcome to Hospital API's "});
